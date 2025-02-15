@@ -28,10 +28,13 @@ if ('serviceWorker' in navigator) {
 
 ```
 ### Phase 1: Installation (install event)
-In this phase the service worker is downloaded and installed.This happens when the browser downloads the service worker for the first time or if the file has changed.
+In this phase the service worker is **downloaded and installed**.This happens when the browser downloads the service worker for the first time or if the file has changed.
+
 Common tasks:
-Cache static assets (HTML, CSS, JS, images)
-Prepare the service worker for activation
+
+- **Cache static assets** (HTML, CSS, JS, images)
+  
+- **Prepare the service worker for activation**
 Example: install event
 ```
 self.addEventListener('install', event => {
