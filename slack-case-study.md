@@ -69,7 +69,7 @@ Slack introduced **jittered interval registration** to solve this challenge. Her
 2. If a new deployment is detected, the Service Worker fetches and caches fresh assets in the background.
 3. These assets are then used for the next boot, ensuring users have the latest version.
 
-![New versions are fetched regularly but only the latest is used for booting]("assests/ServiceWorker-1.png)
+![New versions are fetched regularly but only the latest is used for booting](assests/ServiceWorker-1.png)
 
 ## Results
 The introduction of Service Workers led to significant improvements:
