@@ -5,3 +5,4 @@ Topics I will be covering
 
 2. [How Slack Reduced Boot Time by More Than 50% Using Service Workers](./slack-case-study.md)
 3. [Demo of Service Worker with code](./codes/)
+4. [About Me](./assests/about-me.png)
