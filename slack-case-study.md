@@ -43,7 +43,7 @@ During subsequent launches, Slack checks for the presence of cached assets and p
 
 - If no cached assets or persisted data exist (e.g., during a user's first launch), the app performs a "cold boot." This involves fetching all required resources from the network and storing them in the cache for future use.
 
-![The basic cold and warm boot decision tree](assests/ServiceWorker-2.png)
+![The basic cold and warm boot decision tree](assests/ServiceWorker-1.png)
 
 ### Handling Binary Assets
 Binary assets such as images, PDFs, and videos are not explicitly managed by the Service Worker for offline use. Instead, these are handled by the browser’s default cache, controlled via standard HTTP cache headers. This allows Slack to focus the Service Worker’s caching logic on critical assets like scripts, styles, and application data.
@@ -69,7 +69,7 @@ Slack introduced **jittered interval registration** to solve this challenge. Her
 2. If a new deployment is detected, the Service Worker fetches and caches fresh assets in the background.
 3. These assets are then used for the next boot, ensuring users have the latest version.
 
-![New versions are fetched regularly but only the latest is used for booting](assests/ServiceWorker-1.png)
+![New versions are fetched regularly but only the latest is used for booting](assests/ServiceWorker-2.png)
 
 ## Results
 The introduction of Service Workers led to significant improvements:
