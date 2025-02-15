@@ -12,7 +12,7 @@ A Service Worker is a JavaScript script that runs in the background, separate fr
 - Service workers only run over HTTPS
 
 ## Service Worker Lifecycle
-The Service Worker Lifecycle has three main phases:
+The Service Worker Lifecycle has [three main phases](./assests/life-cycle.png):
 1. Installation (install event)
 2. Activation (activate event)
 3. Running (fetch event,push, sync)
