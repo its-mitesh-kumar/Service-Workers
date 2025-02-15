@@ -1,7 +1,7 @@
 
 
 ## What is a Service Worker?
-A Service Worker is a JavaScript script that runs in the background, separate from the main browser thread. It enables features like:
+A [Service Worker](./assests/service-worker.webp) is a JavaScript script that runs in the background, separate from the main browser thread. It enables features like:
 - Background sync
 - Push notifications
 - Caching assets for offline access
